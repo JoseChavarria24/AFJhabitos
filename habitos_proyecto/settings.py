@@ -26,8 +26,9 @@ SECRET_KEY = 'django-insecure-nw527-m7p_a!b1vyuqx4%@!6twze^6f=x2wp+vof##e2zr!rok
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://afjhabitos.onrender.com","*"]
+ALLOWED_HOSTS = ['https://afjhabitos.onrender.com', 'localhost', '127.0.0.1']
 
+CSRF_TRUSTED_ORIGINS = ['https://afjhabitos.onrender.com']
 
 # Application definition
 
